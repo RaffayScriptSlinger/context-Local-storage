@@ -64,3 +64,25 @@ function App() {
 
 export default App
 
+
+
+// import React, { useState } from 'react'
+// import { TodoProvider } from './context'
+
+// function App() {
+//   const [Todo,setTodo] = useState([])
+
+//   const addTodo = (todo)=>{
+//     setTodo((prev) => [{id: Date.now(),...todo},...prev])
+//   }
+//   const updateTodo = (id,todo)=>{
+//     setTodo((prev)=> prev.map((prevTodo)=>prevTodo.id === id ? todo : prevTodo ))
+//   }
+//   return (
+//     <TodoProvider value={{Todo,addTodo,deleteTodo,updateTodo,toggleTodo}}>
+
+//     </TodoProvider>
+//   )
+// }
+
+// export default App
